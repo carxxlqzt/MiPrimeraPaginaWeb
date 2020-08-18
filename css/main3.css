@@ -1,0 +1,154 @@
+/* Estilos generales*/
+*{font-family:'Bebas Neue';
+letter-spacing: 1px;
+}
+body{
+	margin:0px
+}
+/*Estilos del header*/
+header{ background-color: #0a7e67;
+	width: 100vw; height: 9vh;
+
+}
+header>h1{ font-size: 25px;
+	color: white; width: 400px; position: relative;
+	left: 39px; top: 10px; text-shadow: 8px 8px 8px #043039;letter-spacing: 3px;
+	font-style: oblique;
+
+}
+#logo{ width: 150px; height: 150px; position: absolute; 
+	 top:85px; right: 70px
+
+}
+nav{ position: absolute; right:90px; top: 35px;
+
+}
+nav>a{color: #043039; text-decoration: none;
+	padding: 10px; background-color: #80d479;
+	 border: #043039 solid; border-radius: 2em; margin-left: 35px;
+	 font-weight: bold;
+
+}
+nav>a:hover{ color: white; border-color: white;background-color: #03242a
+
+}
+/*Estilos del Main*/
+
+main{width: 100vw; min-height: 91vh;
+	background-image: url(../img/juegoc.jpg); background-position: center;
+	background-size: cover; background-repeat: repeat-y;
+	 font-family: helvetica;
+
+}
+main>h2{ margin-top: 0px;font-size:80px; text-align: center;
+	color: white; text-shadow: 5px 5px 5px #213b3b; 
+	position: relative; top: 30px; letter-spacing: 9px;
+
+}
+.container *{ border: black solid; background-color: white;
+	font-size:34px; margin: 0px 20px;
+
+}
+.cindx{margin-left: 350px; margin-top: 5em;
+
+}
+.cindx *{ border: black solid; background-color: white;
+	font-size:34px;
+
+}
+.cindx> h3{width: 200px; font-size: 40px; text-align: center;
+	margin-left: 210px;
+
+}
+.cindx> p{width:600px ;text-align: center;margin-left: 15px; 
+	
+
+}
+/*Estilos de NYSL Rules*/
+.caja{display: flex; justify-content: center;}
+.rules{ width:950px;background-color: white;
+	 border: black solid; padding: 0px 40px; font-size: 30px;
+
+}
+#hrles{ border: black solid;
+	 background-color: white; width: max-content; margin-left:219px;
+	 font-size: 40px;padding: 2px 25px;
+}
+.field{
+	list-style-type: lower-alpha;
+}
+#allply{list-style-type: circle;}
+/*Estilos de la tabla*/
+#h3, #h4{ text-align: center; color: white;
+	color: white; text-shadow: 5px 5px 5px #213b3b; 
+
+}
+#h3{ font-size: 44px; letter-spacing: 5px; margin-top: 0px;}
+#h4{font-size: 20px; font-style: oblique ; letter-spacing: 10px ;}
+
+
+.tabla{ display: grid; grid-template-columns: 50% 50%;
+	grid-template-areas:
+	"sep oct"
+	"glo glo";
+
+}
+table{ font-size: 20px; background-color: white;}
+.sep{ grid-area:sep; display: flex; justify-content: center;
+}
+.sep table{ width: 400px;
+}
+.thead tr td{background-color:rgb(112, 224, 112);}
+.column{ background-color:#03242a;color:white}
+.sep table tr:nth-child(even){
+	background-color: chartreuse;
+}
+.sep table tr:nth-child(odd){background-color: darkcyan;}
+.oct table{ width: 400px;}
+.oct table tr:nth-child(even){
+	background-color: chartreuse;}
+.oct  table tr:nth-child(odd){background-color: darkcyan;}
+
+.glo table{width: 540px; display: flex; justify-content: center}
+
+.oct{grid-area:oct; display: flex;justify-content: center;
+}
+.glo{ grid-area:glo; display: flex;
+	flex-direction: column; width: 100%; align-items: center;
+}
+.glo table tr:nth-child(even){
+	background-color: chartreuse;
+}
+.glo table tr:nth-child(odd){background-color: darkcyan;}
+.glo h4{ font-size: 44px; color: white; text-shadow: 5px 5px 5px #0c2227f8;
+	letter-spacing: 5px;
+
+}
+main p{font-size: 30px; color:black; border: black solid;
+	background-color: white; width: 70%; margin-left: 35px;
+	padding-left: 20px;
+}
+#fc{ margin-top: 80px;}
+#mail{color:#6eb800 ;text-decoration:none; border:none
+}
+/*Estilos del formulario*/
+fieldset{background-color:#03242a; margin: 30px; color:white;
+	border: none;	
+
+}
+fieldset label{margin: 0px 10px 0px 15px;}
+legend{background-color:#03242a ; color: white;}
+.register p{font-size: 15px; margin-top: 10px; padding:7px;
+
+}
+.register h4{ font-size: 26px; background-color: #03242a; margin: 10px 30px;color: white;
+width: max-content; padding:7px 5px;}
+#pform{border:none; font-style: oblique;}
+.submit{display: flex; justify-content: center;}
+.submit input{ width: 80px;height: 60px;font-size:20px; background-color: greenyellow; color:#03242a;}
+/*Estilos de los mapas*/
+.mapas{margin-top: 80px; width:1000px; height: 700px;
+	display:flex; flex-direction:row;flex-wrap: wrap;}
+.mapas div h3{width:max-content; background-color: greenyellow;}
+.mapas div{background-color: white; display:flex; flex-direction: column; align-items: center;}
+iframe{margin: 7px; width: 300px;height: 300px;}
