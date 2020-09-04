@@ -1,0 +1,38 @@
+header{background-image: url(D:\Mis Cosas\Mis documentos\TAREA Liga\juego2.jpg);
+       background-position: top ; 
+       width: 100vw; height: 30vh;
+       margin: 70px 0px; background-size: cover;
+       background-repeat: no-repeat;
+}
+header>h1{position: absolute;top: 0px;
+      margin-top: 0px; font: oblique 120% cursive;
+      font-size: 50px;
+}
+
+nav{ position: absolute; right: 20px; top:55px
+
+}
+nav>a{background-color: blue; padding: 5px 10px;
+      text-decoration: none; font-family: cursive;
+      font-size: 20px; color:white; margin-left: 45px;
+      box-shadow: 5px 5px 5px 5px black
+}
+.activoa{ background-color: green
+}
+
+#logo{ width: 90px; height: 90px;
+      position: absolute;top: 360px
+	}
+header>h2{color: black; background-color: white;
+          padding: 10px; border-color: black; border-style: solid;
+          text-align: center; position: relative;top: 180px;
+          font-family: cursive; }
+section{width: 600px;height:  100px;
+       position: relative; left: 250px;
+       top: 50px; font-family:  arial
+
+}
+section>div>h3{font: oblique 120% arial; margin-bottom: 0px;
+
+}
+section>div>p{margin-top: 0px; margin-left: 20px;margin-bottom: 20px}

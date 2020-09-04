@@ -1,0 +1,28 @@
+header{ background-image: url(D:\Mis Cosas\Mis documentos\TAREA Liga\juegoc.jpg); background-size: cover;
+	background-position: center; width: 100vw; height: 25vh;
+	margin: 0px
+}
+header>h1{font-family: cursive; margin-left: 20px}
+#logo{ width: 80px; height: 80px ;
+	   position: absolute; right: 90px; top: 120px;z-index: 2}
+header>h2{ color:white; background-color: black; margin: 0px; width: 100vw;
+          text-align:center; font-family: cursive; font-size: 20px; padding: 10px 0px 10px 0px;
+          position: absolute; top: 140px; 
+
+ }
+ nav>a{ display: block;
+       text-decoration: none; 
+       font-size: 20px;
+       margin: 60px;
+       color: blue;
+       font-family: arial}
+section{position: relative; left: 400px; bottom: 250px;
+	    font-family: arial;
+	    display: block;
+	    width: 400px
+
+ }
+ section>div>h3{font-style: oblique; font-family:arial; margin: 0px}
+ section>div>p{ position: relative; left: 30px;
+ 	        margin: 2px 0px 30px 0px
+ 	      
