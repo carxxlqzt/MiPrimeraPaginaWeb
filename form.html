@@ -26,20 +26,20 @@
         </nav> 
         <main>
             <h2> Registration Form</h2> 
-            <form action="../show_data.html">
+            <form action="show_data.html">
                 
                 <fieldset>
-                <label for="FirstName">
-                     First Name <input type="text" name="First-Name" id="FirstName" placeholder="Hammilton">
-                 </label>
-                 <label for="LastName">
-                    Last Name <input type="text" name="Last-Name" id="LastName" placeholder="White">
-                </label>
-                <label for="StreetAddress">
-                    Street Address
+                <label for="FirstName">First Name</label>
+                      <input type="text" name="First-Name" id="FirstName" placeholder="Hammilton">
+                 
+                 <label for="LastName"> Last Name</label>
+                    <input type="text" name="Last-Name" id="LastName"  placeholder="White">
+                
+                <label for="StreetAddress">  Street Address</label>
+                  
                     <input type="text" name="Street-address" id="StreetAddress"> 
-                </label>
-                <label for="City"> City  
+                
+                <label for="City"> City </label> 
                     <select name="City" id="City">
                         <option value="Chicago">Chicago</option>
                         <option value="New-Yersey"> New Jersey</option>
@@ -48,23 +48,25 @@
                         <option value="Atlanta">Atlanta</option>
                     </select>
 
-                    </label>
+                    
                
-                <label>Zip Code 
-                    <input type="number" name="Zip-Code">
-                </label> 
-                <label for="BirthDate"> Birth Date
+                <label for="ZipCode">Zip Code</label>  
+                    <input type="number" name="Zip-Code" id="ZipCode">
+                
+                <label for="BirthDate"> Birth Date</label>
                     <input type="date" name="Birth_Date" id="BirthDate">
-                </label>
+                
             </fieldset>
             <fieldset>
                      Gender
-                    <label for="Female">Female
+                    <label for="Female">Female</label>
                         <input type="radio" name="Gender" id="Female" value="female">
-                    </label>
-                    <label for="Male">Male <input type="radio" name="Gender" id="Male" value="Male"> </label>
-                    <label for="NonBinary">Non Binary <input type="radio" name="Gender" id="NonBinary" value="Non-binary"></label>
-                <label for="Grade">Grade
+                    
+                    <label for="Male">Male</label> 
+                    <input type="radio" name="Gender" id="Male" value="Male"> 
+                    <label for="NonBinary">Non Binary </label>
+                    <input type="radio" name="Gender" id="NonBinary" value="Non-binary">
+                <label for="Grade">Grade</label>
                     <select name="Grade" id="Grade">
                         <option value="Pre-school">Pre-School</option>
                         <option value="1st">1st</option>
@@ -73,19 +75,19 @@
                         <option value="4th">4th</option>
                         <option value="5th">5th</option>
                     </select>
-                </label>
-                <label for="ParentGuardian">Parent/Guardian
-                <input type="text" name="Parent/Guardian" id="ParentGuardian"> </label>
-                <label for="ContactPhone">Contact Phone
+                
+                <label for="ParentGuardian">Parent/Guardian</label>
+                <input type="text" name="Parent/Guardian" id="ParentGuardian"> 
+                <label for="ContactPhone">Contact Phone</label>
                     <input type="tel" name="Contact-Phone" id="ContactPhone">
-                </label>
-                <label for="ContactEmail">Contact Email
+                
+                <label for="ContactEmail">Contact Email</label>
                     <input type="email" name="email" id="ContactEmail" placeholder="example@mail.com">
-                </label>
+                
             </fieldset>
             <fieldset>
                 <legend>Which elementary schools do you live near?</legend>
-                <label for="FirstClosestSchool"> First Closest School
+                <label for="FirstClosestSchool"> First Closest School</label>
                     <select name="First-Closest-School" id="FirstClosestSchool">
                         <option value="Aj-Katzenmaier">Aj Katzenmaier</option>
                         <option value="Greenbay">Greenbay</option>
@@ -94,7 +96,7 @@
                         <option value="North-Elementary">North Elementary</option>
                         <option value="South-Elementary">South Elementary</option>
                     </select>
-                </label>
+                
                 <label for="SecondClosestSchool:">Second Closest School:</label>
                 <select name="Second-Closest-School:" id="SecondClosestSchool:">
                     <option value="AJ-Katzenmaier">AJ Katzenmaier</option>
@@ -107,42 +109,42 @@
             </fieldset>
             <fieldset>
                 <legend>What position(s) do you normally play?(check all that apply) </legend>
-                <label for="Forward">Forward
+                <label for="Forward1">Forward</label>
                      
-                    <input type="checkbox" name="Forward" id="Forward">
-                </label>
-                <label for="Defense">Defense
-                    <input type="checkbox" name="Defense" id="Defense">
+                    <input type="checkbox" name="What_position_do_you_normally_play?" id="Forward1" value="Forward" >
+                
+                <label for="Defense1">Defense </label>
+                    <input type="checkbox" name="What_position_do_you_normally_play?" id="Defense1" value="Defense">
 
-                </label>
-                <label for="Midfield">Midfield
-                    <input type="checkbox" name="Midfield" id="Midfield">
-                </label>
-                <label for="Goalkeeper">Goalkeeper
-                        <input type="checkbox" name="Goalkeeper" id="Goalkeeper">
-                </label>
+                
+                <label for="Midfield1">Midfield </label>
+                    <input type="checkbox" name="What_position_do_you_normally_play?" id="Midfield1" value="Midfield">
+               
+                <label for="Goalkeeper1">Goalkeeper</label>
+                        <input type="checkbox" name="What_position_do_you normally_play?" id="Goalkeeper1" value="Goalkeeper">
+                
             </fieldset>
             <fieldset>
                 <legend> What position(s) do you want to play? (check all that apply)</legend>
-                <label for="Forward">Forward
+                <label for="Forward2">Forward</label>
                      
-                    <input type="checkbox" name="Forward" id="Forward">
-                </label>
-                <label for="Defense">Defense
-                    <input type="checkbox" name="Defense" id="Defense">
+                    <input type="checkbox" name="What_position_do_you_want_to_play" id="Forward2" value="Forward">
+                
+                <label for="Defense2">Defense</label>
+                    <input type="checkbox" name="What_position_do_you_want_to_play" id="Defense2" value="Defense">
 
-                </label>
-                <label for="Midfield">Midfield
-                    <input type="checkbox" name="Midfield" id="Midfield">
-                </label>
-                <label for="Goalkeeper">Goalkeeper
-                        <input type="checkbox" name="Goalkeeper" id="Goalkeeper">
-                </label>
+                
+                <label for="Midfield2">Midfield</label>
+                    <input type="checkbox" name="What_position_do_you_want_to_play" id="Midfield2" value="Mindfield">
+                
+                <label for="Goalkeeper2">Goalkeeper</label>
+                        <input type="checkbox" name="What_position_do_you_want_to_play" id="Goalkeeper2" value="Goalkeeper">
+                
             </fieldset>
             <fieldset>
                 <label for="AlreadyHaveaUniform">Already Have a Uniform</label>
-                    <input type="checkbox" name="Already-Have-a-Uniform" id="AlreadyHaveaUniform">
-                    <label for="Jersey-Size:">Jersey Size:
+                    <input type="checkbox" name="Do_you_already_have_a_uniform" id="AlreadyHaveaUniform" value="Already_Have_a_Uniform">
+                    <label for="Jersey-Size:">Jersey Size:</label>
                     <select name="Jersey-Name" id="Jersey-Size:">
                         <option value="Youth-Small">Youth Small</option>
                         <option value="Youth-Medium">Youth Medium</option>
@@ -152,8 +154,8 @@
                         <option value="Large">Large</option>
                         <option value="Extra-Large">Extra-Large</option>
                     </select>
-                  </label>
-                    <label for="ShortsSize:">Shorts Size:
+                  
+                    <label for="ShortsSize:">Shorts Size:</label>
                     <select name="Shorts-Size:" id="ShortsSize:">
                         <option value="Youth-Small">Youth Small</option>
                         <option value="Youth-Medium">Youth Medium</option>
@@ -161,8 +163,9 @@
                         <option value="Small">Small</option>
                         <option value="Medium">Medium</option>
                         <option value="Large">Large</option>
-                        <option value="Extra-Large">Extra-Large</option>       </select>
-                </label>
+                        <option value="Extra-Large">Extra-Large</option>
+                     </select>
+                
             </fieldset>
             <div class="register">
                 <h4>Permission to Play </h4>
@@ -177,9 +180,9 @@
                     <fieldset>
                          <label for="ParentGuardianSignature:">Parent/Guardian Signature:
                    <input type="text" name="Parent/Guardian-Signature:" id="ParentGuardianSignature:"> </label>
-                   <label for="Date">Date
+                   <label for="Date">Date</label>
                        <input type="date" name="date" id="Date">
-                   </label>
+                   
                     </fieldset>
                    
                 
