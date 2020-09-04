@@ -1,0 +1,33 @@
+/*Estilos generales*/
+
+:root{
+    --primary-color: #033949;
+    --secondary-color: #a3ff15;
+}
+
+*{
+    margin: 0;
+}
+
+img{
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "navbar navbar"
+    "main aside"
+    "footer footer";
+}
+
